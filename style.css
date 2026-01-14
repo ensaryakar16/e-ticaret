@@ -1,0 +1,1796 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media (min-width: 1258px) and (max-width:2400px){
+    .indirimli-urun-con{
+        display: inline-block;
+        width: auto;
+    }
+body{
+    width: 100%;
+    height: 100%;
+    
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.header-top{
+    width: 100%;
+    height: auto;
+    background-color: #fc8f02;
+    padding: 0px;
+    margin: 0px;
+}
+.logo-img-div{
+    width: auto;
+    height: auto;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left: 25px;
+     vertical-align: middle;
+}
+.logo-img{
+    width: 50px;
+    height: 50px;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left: 25px;
+    border-radius: 50%;
+}
+.arama-div{
+    width: auto;
+    height: auto;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left: 150px;
+    margin-top:0px;
+     vertical-align: middle;
+     z-index:-1;
+}
+.arama{
+    width: 500px;
+    height: 40px;
+    border-radius:10px;
+    border:3px solid white;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: bold;
+}
+.arama:focus{
+    width: 500px;
+    height: 40px;
+    border-radius:10px;
+    border:3px solid white;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: bold;
+}
+.arama-buton{
+     width: auto;
+    height: auto;
+    display:inline-block;
+     margin-left:-50px;
+     margin-top: -6px;
+}
+.button{
+     width: 50px;
+    height: 40;
+     vertical-align: middle;
+     border-radius: 10px;
+     background-color: #27a11c;
+     border: none;
+     color: white;
+     text-align: center;
+     transition: 0.3s;
+    font-weight: bold;
+}
+.button:hover{
+     width: 50px;
+    height: 40;
+     vertical-align: middle;
+     border-radius: 10px;
+     background-color: #15ff00;
+     border: none;
+     color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.liste{
+    width: auto;
+    height: auto;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left: 25px;
+    margin-top:0px;
+     vertical-align: middle;
+}
+.list-ul{
+    width: auto;
+    height: auto;
+     list-style-type: none;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left: 25px;
+     vertical-align: middle;
+}
+.list-ul li{
+    width: auto;
+    height: auto;
+     list-style-type: none;
+    background-color: #F5F595;
+    display:inline-block;
+    margin-left: 25px;
+     vertical-align: middle;
+}
+.list-ul li a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none; 
+}
+.giris{
+    color:green;
+    transition: 0.3s;
+    background-color: white;
+    padding: 10px;
+}
+.giris:hover{
+    color:red;
+    background-color: white;
+    padding: 10px;
+}
+.sepet{
+    color:green;
+    transition: 0.3s;
+     background-color: white;
+    padding: 10px;
+}
+    .sepet-urun-con{
+        width: 300px;
+        background-color: #fc8f02;
+        position:absolute;
+        margin-left:108px;
+        z-index:1;
+        margin-top: 12px;
+        padding: 0px;
+        display:none;
+    }
+    
+.asdf:hover .sepet-urun-con{
+         width: 300px;
+        background-color: #fc8f02;
+        position:absolute;
+        margin-left:-133px;
+        z-index:1;
+        margin-top: 12px;
+        padding: 0px;
+        display:block;
+}
+    .sepet-urun-con ul{
+        width: auto;
+        background-color: #fc8f02;
+        list-style-type:none;
+        padding: 0px;
+        margin:0px auto;
+
+    }
+    .sepet-urun-con ul li{
+        width: auto;
+        background-color: #fc8f02;
+        list-style-type:none;
+        display: block;
+        padding: 0px;
+        margin:0px auto;
+        cursor:pointer;
+        vertical-align: top;
+    }
+    .sepet-urun-img{
+        width: auto;
+        display:inline-block;
+    }
+    .sepet-urun-img img{
+        width: 150px;
+        height: 150px;
+    }
+    .sepet-urun-isim{
+        width: auto;
+        display:inline-block;
+        vertical-align: top;
+    }
+    .sepet-urun-isim p {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:rgb(36, 36, 36);
+        margin-top: 15px;
+    }
+.sepet:hover {
+    color:red;
+     background-color: white;
+    padding: 10px;
+}
+.acilir-pencere-giris{
+    width: auto;
+    height: auto;
+    position:absolute;
+    display:none;
+    margin-left: -70px;
+    margin-top:9px;
+}
+.giris-a-div:hover .acilir-pencere-giris{
+    width: auto;
+    height: auto;
+    position:absolute;
+    display:block;
+    margin-left: -29px;
+    margin-top:9px;
+    z-index:2;
+}
+.acilir-pencere-giris li{
+    width: auto;
+    height: auto;
+    display:block;
+    text-align:center;
+    padding: 5px;
+    background-color: #fc8f02;
+    color: white;
+    font-weight: bold;
+    transition:0.3;
+}
+.acilir-pencere-giris li a{
+    display:block;
+    color: white;
+}
+.acilir-pencere-giris li:hover{
+    width: auto;
+    height: auto;
+    display:block;
+    text-align:center;
+    padding: 5px;
+    background-color: #fcba65;
+    color: white;
+    font-weight: bold;
+}
+.giris-buton{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    font-weight: bold;
+    color:white;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+.header-bottom{
+    width: 100%;
+    height: auto;
+    background-color: rgb(10, 0, 54);
+    margin: 0px;
+    padding: 0px;
+}
+.header-container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(10, 0, 54);
+}
+.header-container li{
+    display: inline-block;
+    height: auto;
+    width:auto;
+    color: white;
+    margin-left: 5px;
+    color: white;
+    cursor: pointer;
+}
+.header-container li a{
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    color: white;
+}
+.header-container li a:hover{
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    color: white;
+    background-color: rgb(47, 0, 255);
+}
+.tum-urun{
+    padding: 5px;
+    margin: 0px;
+    margin-left:5px;
+    background-color: rgb(10, 0, 54);
+}
+.tum-urun:hover{
+    padding: 5px;
+    margin: 0px;
+    margin-left:5px;
+    background-color: rgb(47, 0, 255);
+}
+.tum-urunler{
+    display: none;
+    transition: 0.3s;
+}
+.tum-urun:hover:hover .tum-urunler{
+    display: block;
+    position :absolute;
+    background-color: rgb(10, 0, 54) ;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 6px;
+    margin-left: -10px;
+    z-index:2;
+}
+.tum-urunler ul{
+    display: block;
+    background-color: rgb(10, 0, 54) ;
+    padding: 0px;
+    margin: 0px;
+}
+.tum-urunler ul li{
+    display: block;
+    background-color: rgb(10, 0, 54) ;
+    padding: 0px;
+    margin: 0px;
+}
+.tum-urunler ul li:hover{
+    display: block;
+    background-color: rgb(47, 0, 255) ;
+    padding: 0px;
+    margin: 0px;
+}
+.tum-urunler ul li a{
+  
+    padding: 10px;
+}
+.tum-urunler ul li a:hover{
+  
+    padding: 10px;
+}
+.tum-urunler ul li i{
+    margin-right:5px;
+}
+}
+@media (min-width: 1154px) and (max-width:1258px){
+    .indirimli-urun-con{
+        display: inline-block;
+        width: auto;
+    }
+body{
+    width: 100%;
+    height: 100%;
+    
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+.header-top{
+    width: 100%;
+    height: auto;
+    background-color: #fc8f02;
+    padding: 0px;
+    margin: 0px;
+}
+.logo-img-div{
+    width: auto;
+    height: auto;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left:10px;
+     vertical-align: middle;
+}
+.logo-img{
+    width: 40px;
+    height: 40px;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left: 0px;
+    border-radius: 50%;
+}
+.arama-div{
+    width: auto;
+    height: auto;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left: 150px;
+    margin-top:0px;
+     vertical-align: middle;
+     z-index:-1;
+}
+.arama{
+    width: 500px;
+    height: 40px;
+    border-radius:10px;
+    border:3px solid white;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: bold;
+}
+.arama:focus{
+    width: 500px;
+    height: 40px;
+    border-radius:10px;
+    border:3px solid white;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: bold;
+}
+.arama-buton{
+     width: auto;
+    height: auto;
+    display:inline-block;
+     margin-left:-50px;
+     margin-top: -6px;
+}
+.button{
+     width: 50px;
+    height: 40;
+     vertical-align: middle;
+     border-radius: 10px;
+     background-color: #27a11c;
+     border: none;
+     color: white;
+     text-align: center;
+     transition: 0.3s;
+    font-weight: bold;
+}
+.button:hover{
+     width: 50px;
+    height: 40;
+     vertical-align: middle;
+     border-radius: 10px;
+     background-color: #15ff00;
+     border: none;
+     color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.liste{
+    width: auto;
+    height: auto;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left: 25px;
+    margin-top:0px;
+     vertical-align: middle;
+}
+.list-ul{
+    width: auto;
+    height: auto;
+     list-style-type: none;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left: 25px;
+     vertical-align: middle;
+}
+.list-ul li{
+    width: auto;
+    height: auto;
+     list-style-type: none;
+    background-color: #F5F595;
+    display:inline-block;
+    margin-left: 25px;
+     vertical-align: middle;
+}
+.list-ul li a{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none; 
+}
+.giris{
+    color:green;
+    transition: 0.3s;
+    background-color: white;
+    padding: 8px;
+}
+.giris:hover{
+    color:red;
+    background-color: white;
+     padding: 8px;
+}
+.sepet{
+    color:green;
+    transition: 0.3s;
+     background-color: white;
+     padding: 8px;
+}
+.sepet:hover{
+    color:red;
+     background-color: white;
+     padding: 8px;
+}
+
+    .sepet-urun-con{
+        width: 300px;
+        background-color: #fc8f02;
+        position:absolute;
+        margin-left:70px;
+        z-index:1;
+        margin-top: 12px;
+        padding: 0px;
+        display:none;
+    }
+    
+.asdf:hover .sepet-urun-con{
+         width: 300px;
+        background-color: #fc8f02;
+        position:absolute;
+        margin-left:-163;
+        z-index:1;
+        margin-top: 12px;
+        padding: 0px;
+        display:block;
+}
+    .sepet-urun-con ul{
+        width: auto;
+        background-color: #fc8f02;
+        list-style-type:none;
+        padding: 0px;
+        margin:0px auto;
+
+    }
+    .sepet-urun-con ul li{
+        width: auto;
+        background-color: #fc8f02;
+        list-style-type:none;
+        display: block;
+        padding: 0px;
+        margin:0px auto;
+        cursor:pointer;
+        vertical-align: top;
+    }
+    .sepet-urun-img{
+        width: auto;
+        display:inline-block;
+    }
+    .sepet-urun-img img{
+        width: 150px;
+        height: 150px;
+    }
+    .sepet-urun-isim{
+        width: auto;
+        display:inline-block;
+        vertical-align: top;
+    }
+    .sepet-urun-isim p {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:rgb(36, 36, 36);
+        margin-top: 15px;
+    }
+
+.acilir-pencere-giris{
+    width: auto;
+    height: auto;
+    position:absolute;
+    display:none;
+    margin-left: -26px;
+    margin-top:9px;
+}
+.giris-a-div:hover .acilir-pencere-giris{
+    width: auto;
+    height: auto;
+    position:absolute;
+    display:block;
+    margin-left: -26px;
+    margin-top:9px;
+    z-index:2;
+}
+.acilir-pencere-giris li{
+    width: auto;
+    height: auto;
+    display:block;
+    text-align:center;
+    padding: 5px;
+    background-color: #fc8f02;
+    color: white;
+    font-weight: bold;
+    transition:0.3;
+}
+.acilir-pencere-giris li a{
+    display:block;
+    color: white;
+}
+.acilir-pencere-giris li:hover{
+    width: auto;
+    height: auto;
+    display:block;
+    text-align:center;
+    padding: 5px;
+    background-color: #fcba65;
+    color: white;
+    font-weight: bold;
+}
+.giris-buton{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    font-weight: bold;
+    color:white;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.header-bottom{
+    width: 100%;
+    height: auto;
+    background-color: rgb(10, 0, 54);
+    margin: 0px;
+    padding: 0px;
+}
+.header-container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(10, 0, 54);
+}
+.header-container li{
+    display: inline-block;
+    height: auto;
+    width:auto;
+    color: white;
+    margin-left: 5px;
+    color: white;
+    cursor: pointer;
+}
+.header-container li a{
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    color: white;
+}
+.header-container li a:hover{
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    color: white;
+    background-color: rgb(47, 0, 255);
+}
+.tum-urun{
+    padding: 5px;
+    margin: 0px;
+    margin-left:5px;
+    background-color: rgb(10, 0, 54);
+}
+.tum-urun:hover{
+    padding: 5px;
+    margin: 0px;
+    margin-left:5px;
+    background-color: rgb(47, 0, 255);
+}
+
+.tum-urunler{
+    display: none;
+    transition: 0.3s;
+}
+.tum-urun:hover:hover .tum-urunler{
+    display: block;
+    position :absolute;
+    background-color: rgb(10, 0, 54) ;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 6px;
+    margin-left: -10px;
+    
+    z-index:2;
+}
+.tum-urunler ul{
+    display: block;
+    background-color: rgb(10, 0, 54) ;
+    padding: 0px;
+    margin: 0px;
+}
+.tum-urunler ul li{
+    display: block;
+    background-color: rgb(10, 0, 54) ;
+    padding: 0px;
+    margin: 0px;
+}
+.tum-urunler ul li:hover{
+    display: block;
+    background-color: rgb(47, 0, 255) ;
+    padding: 0px;
+    margin: 0px;
+}
+.tum-urunler ul li a{
+  
+    padding: 10px;
+}
+.tum-urunler ul li a:hover{
+  
+    padding: 10px;
+}
+.tum-urunler ul li i{
+    margin-right:5px;
+}
+}
+@media (min-width: 1042px) and (max-width:1154px){
+    .indirimli-urun-con{
+        display: inline-block;
+        width: auto;
+    }
+body{
+    width: 100%;
+    height: 100%;
+    
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+.header-top{
+    width: 100%;
+    height: auto;
+    background-color: #fc8f02;
+    padding: 0px;
+    margin: 0px;
+}
+.logo-img-div{
+    width: auto;
+    height: auto;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left:10px;
+     vertical-align: middle;
+}
+.logo-img{
+    width: 30px;
+    height: 30px;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left: 0px;
+    border-radius: 50%;
+}
+.arama-div{
+    width: auto;
+    height: auto;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left: 150px;
+    margin-top:0px;
+     vertical-align: middle;
+     z-index:-1;
+}
+.arama{
+    width: 400px;
+    height: 40px;
+    border-radius:10px;
+    border:3px solid white;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: bold;
+}
+.arama:focus{
+    width: 400px;
+    height: 40px;
+    border-radius:10px;
+    border:3px solid white;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: bold;
+}
+.arama-buton{
+     width: auto;
+    height: auto;
+    display:inline-block;
+     margin-left:-50px;
+     margin-top: -6px;
+}
+.button{
+     width: 50px;
+    height: 40;
+     vertical-align: middle;
+     border-radius: 10px;
+     background-color: #27a11c;
+     border: none;
+     color: white;
+     text-align: center;
+     transition: 0.3s;
+    font-weight: bold;
+}
+.button:hover{
+     width: 50px;
+    height: 40;
+     vertical-align: middle;
+     border-radius: 10px;
+     background-color: #15ff00;
+     border: none;
+     color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.liste{
+    width: auto;
+    height: auto;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left: 25px;
+    margin-top:0px;
+     vertical-align: middle;
+}
+.list-ul{
+    width: auto;
+    height: auto;
+     list-style-type: none;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left: 25px;
+     vertical-align: middle;
+}
+.list-ul li{
+    width: auto;
+    height: auto;
+     list-style-type: none;
+    background-color: #F5F595;
+    display:inline-block;
+    margin-left: 25px;
+     vertical-align: middle;
+}
+.list-ul li a{
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none; 
+}
+.giris{
+    color:green;
+    transition: 0.3s;
+    background-color: white;
+    padding: 8px;
+}
+.giris:hover{
+    color:red;
+    background-color: white;
+     padding: 8px;
+}
+.sepet{
+    color:green;
+    transition: 0.3s;
+     background-color: white;
+     padding: 8px;
+}
+.sepet:hover{
+    color:red;
+     background-color: white;
+     padding: 8px;
+}
+
+
+    .sepet-urun-con{
+        width: 300px;
+        background-color: #fc8f02;
+        position:absolute;
+        margin-left:70px;
+        z-index:1;
+        margin-top: 12px;
+        padding: 0px;
+        display:none;
+    }
+    
+.asdf:hover .sepet-urun-con{
+         width: 300px;
+        background-color: #fc8f02;
+        position:absolute;
+        margin-left:-175;
+        z-index:1;
+        margin-top: 12px;
+        padding: 0px;
+        display:block;
+}
+    .sepet-urun-con ul{
+        width: auto;
+        background-color: #fc8f02;
+        list-style-type:none;
+        padding: 0px;
+        margin:0px auto;
+
+    }
+    .sepet-urun-con ul li{
+        width: auto;
+        background-color: #fc8f02;
+        list-style-type:none;
+        display: block;
+        padding: 0px;
+        margin:0px auto;
+        cursor:pointer;
+        vertical-align: top;
+    }
+    .sepet-urun-img{
+        width: auto;
+        display:inline-block;
+    }
+    .sepet-urun-img img{
+        width: 150px;
+        height: 150px;
+    }
+    .sepet-urun-isim{
+        width: auto;
+        display:inline-block;
+        vertical-align: top;
+    }
+    .sepet-urun-isim p {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:rgb(36, 36, 36);
+        margin-top: 15px;
+    }
+.acilir-pencere-giris{
+    width: auto;
+    height: auto;
+    position:absolute;
+    display:none;
+    margin-top:9px;
+}
+.giris-a-div:hover .acilir-pencere-giris{
+    width: auto;
+    height: auto;
+    position:absolute;
+    display:block;
+    margin-left: -26px;
+    margin-top:9px;
+    z-index:2;
+}
+.acilir-pencere-giris li{
+    width: auto;
+    height: auto;
+    display:block;
+    text-align:center;
+    padding: 5px;
+    background-color: #fc8f02;
+    color: white;
+    font-weight: bold;
+    transition:0.3;
+}
+.acilir-pencere-giris li a{
+    display:block;
+    color: white;
+}
+.acilir-pencere-giris li:hover{
+    width: auto;
+    height: auto;
+    display:block;
+    text-align:center;
+    padding: 5px;
+    background-color: #fcba65;
+    color: white;
+    font-weight: bold;
+}
+.giris-buton{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    font-weight: bold;
+    color:white;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.header-bottom{
+    width: 100%;
+    height: auto;
+    background-color: rgb(10, 0, 54);
+    margin: 0px;
+    padding: 0px;
+}
+.header-container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(10, 0, 54);
+}
+.header-container li{
+    display: inline-block;
+    height: auto;
+    width:auto;
+    color: white;
+    margin-left: 5px;
+    color: white;
+    cursor: pointer;
+}
+.header-container li a{
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    color: white;
+}
+.header-container li a:hover{
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    color: white;
+    background-color: rgb(47, 0, 255);
+}
+.tum-urun{
+    padding: 5px;
+    margin: 0px;
+    margin-left:5px;
+    background-color: rgb(10, 0, 54);
+}
+.tum-urun:hover{
+    padding: 5px;
+    margin: 0px;
+    margin-left:5px;
+    background-color: rgb(47, 0, 255);
+}
+
+.tum-urunler{
+    display: none;
+    transition: 0.3s;
+}
+.tum-urun:hover:hover .tum-urunler{
+    display: block;
+    position :absolute;
+    background-color: rgb(10, 0, 54) ;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 6px;
+    margin-left: -10px;
+    
+    z-index:2;
+}
+.tum-urunler ul{
+    display: block;
+    background-color: rgb(10, 0, 54) ;
+    padding: 0px;
+    margin: 0px;
+}
+.tum-urunler ul li{
+    display: block;
+    background-color: rgb(10, 0, 54) ;
+    padding: 0px;
+    margin: 0px;
+}
+.tum-urunler ul li:hover{
+    display: block;
+    background-color: rgb(47, 0, 255) ;
+    padding: 0px;
+    margin: 0px;
+}
+.tum-urunler ul li a{
+  
+    padding: 10px;
+}
+.tum-urunler ul li a:hover{
+  
+    padding: 10px;
+}
+.tum-urunler ul li i{
+    margin-right:5px;
+}
+}
+@media (min-width: 854px) and (max-width:1042px){
+    .indirimli-urun-con{
+        display: inline-block;
+        width: auto;
+    }
+body{
+    width: 100%;
+    height: 100%;
+    
+}
+header{
+    width: 100%;
+    height: auto;
+}
+.header-top{
+    width: 100%;
+    height: auto;
+    background-color: #fc8f02;
+    padding: 0px;
+    margin: 0px;
+}
+.logo-img-div{
+    width: auto;
+    height: auto;
+    background-color: #fc8f02;
+    display:none;
+    margin-left:10px;
+     vertical-align: middle;
+}
+.logo-img{
+    width: 30px;
+    height: 30px;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left: 0px;
+    border-radius: 50%;
+}
+.arama-div{
+    width: auto;
+    height: auto;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left: 50px;
+    margin-top:0px;
+     vertical-align: middle;
+     z-index:-1;
+}
+.arama{
+    width: 400px;
+    height: 40px;
+    border-radius:10px;
+    border:3px solid white;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: bold;
+}
+.arama:focus{
+    width: 400px;
+    height: 40px;
+    border-radius:10px;
+    border:3px solid white;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: bold;
+}
+.arama-buton{
+     width: auto;
+    height: auto;
+    display:inline-block;
+     margin-left:-50px;
+     margin-top: -6px;
+}
+.button{
+     width: 50px;
+    height: 40;
+     vertical-align: middle;
+     border-radius: 10px;
+     background-color: #27a11c;
+     border: none;
+     color: white;
+     text-align: center;
+     transition: 0.3s;
+    font-weight: bold;
+}
+.button:hover{
+     width: 50px;
+    height: 40;
+     vertical-align: middle;
+     border-radius: 10px;
+     background-color: #15ff00;
+     border: none;
+     color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.liste{
+    width: auto;
+    height: auto;
+    background-color: #fc8f02;
+    display:inline-block;
+     vertical-align: middle;
+}
+.list-ul{
+    width: auto;
+    height: auto;
+     list-style-type: none;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left: 25px;
+     vertical-align: middle;
+}
+.list-ul li{
+    width: auto;
+    height: auto;
+     list-style-type: none;
+    background-color: #F5F595;
+    display:inline-block;
+    margin-left: 25px;
+     vertical-align: middle;
+}
+.list-ul li a{
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none; 
+}
+.giris{
+    color:green;
+    transition: 0.3s;
+    background-color: white;
+    padding: 8px;
+}
+.giris:hover{
+    color:red;
+    background-color: white;
+     padding: 8px;
+}
+.sepet{
+    color:green;
+    transition: 0.3s;
+     background-color: white;
+     padding: 8px;
+}
+.sepet:hover{
+    color:red;
+     background-color: white;
+     padding: 8px;
+}
+
+
+    .sepet-urun-con{
+        width: 300px;
+        background-color: #fc8f02;
+        position:absolute;
+        margin-left:70px;
+        z-index:1;
+        margin-top: 12px;
+        padding: 0px;
+        display:none;
+    }
+    
+.asdf:hover .sepet-urun-con{
+         width: 300px;
+        background-color: #fc8f02;
+        position:absolute;
+        margin-left:-175;
+        z-index:1;
+        margin-top: 12px;
+        padding: 0px;
+        display:block;
+}
+    .sepet-urun-con ul{
+        width: auto;
+        background-color: #fc8f02;
+        list-style-type:none;
+        padding: 0px;
+        margin:0px auto;
+
+    }
+    .sepet-urun-con ul li{
+        width: auto;
+        background-color: #fc8f02;
+        list-style-type:none;
+        display: block;
+        padding: 0px;
+        margin:0px auto;
+        cursor:pointer;
+        vertical-align: top;
+    }
+    .sepet-urun-img{
+        width: auto;
+        display:inline-block;
+    }
+    .sepet-urun-img img{
+        width: 150px;
+        height: 150px;
+    }
+    .sepet-urun-isim{
+        width: auto;
+        display:inline-block;
+        vertical-align: top;
+    }
+    .sepet-urun-isim p {
+        font-size: 10px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:rgb(36, 36, 36);
+        margin-top: 15px;
+    }
+
+.acilir-pencere-giris{
+    width: auto;
+    height: auto;
+    position:absolute;
+    display:none;
+    margin-top:9px;
+}
+.giris-a-div:hover .acilir-pencere-giris{
+    width: auto;
+    position:absolute;
+    display:block;
+    margin-left: -26px;
+    margin-top:9px;
+    z-index:2;
+}
+.acilir-pencere-giris li{
+    width: auto;
+    height: auto;
+    display:block;
+    text-align:center;
+    padding: 5px;
+    background-color: #fc8f02;
+    color: white;
+    font-weight: bold;
+    transition:0.3;
+}
+.acilir-pencere-giris li a{
+    display:block;
+    color: white;
+}
+.acilir-pencere-giris li:hover{
+    width: auto;
+    height: auto;
+    display:block;
+    text-align:center;
+    padding: 5px;
+    background-color: #fcba65;
+    color: white;
+    font-weight: bold;
+}
+.giris-buton{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    font-weight: bold;
+    color:white;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.header-bottom{
+    width: 100%;
+    height: auto;
+    background-color: rgb(10, 0, 54);
+    margin: 0px;
+    padding: 0px;
+}
+.header-container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(10, 0, 54);
+}
+.header-container li{
+    display: inline-block;
+    height: auto;
+    width:auto;
+    color: white;
+    margin-left: 5px;
+    color: white;
+    cursor: pointer;
+}
+.header-container li a{
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    color: white;
+}
+.header-container li a:hover{
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    color: white;
+    background-color: rgb(47, 0, 255);
+}
+.tum-urun{
+    padding: 5px;
+    margin: 0px;
+    margin-left:5px;
+    background-color: rgb(10, 0, 54);
+}
+.tum-urun:hover{
+    padding: 5px;
+    margin: 0px;
+    margin-left:5px;
+    background-color: rgb(47, 0, 255);
+}
+
+.tum-urunler{
+    display: none;
+    transition: 0.3s;
+}
+.tum-urun:hover:hover .tum-urunler{
+    display: block;
+    position :absolute;
+    background-color: rgb(10, 0, 54) ;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 6px;
+    margin-left: -10px;
+    
+    z-index:2;
+}
+.tum-urunler ul{
+    display: block;
+    background-color: rgb(10, 0, 54) ;
+    padding: 0px;
+    margin: 0px;
+}
+.tum-urunler ul li{
+    display: block;
+    background-color: rgb(10, 0, 54) ;
+    padding: 0px;
+    margin: 0px;
+}
+.tum-urunler ul li:hover{
+    display: block;
+    background-color: rgb(47, 0, 255) ;
+    padding: 0px;
+    margin: 0px;
+}
+.tum-urunler ul li a{
+  
+    padding: 10px;
+}
+.tum-urunler ul li a:hover{
+  
+    padding: 10px;
+}
+.tum-urunler ul li i{
+    margin-right:5px;
+}
+}
+@media (min-width: 0px) and (max-width:854px){
+    .indirimli-urun-con{
+        display: inline-block;
+        width: auto;
+    }
+    
+body{
+    width: 100%;
+    height: 100%;
+    
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+.header-top{
+    width: 100%;
+    height: auto;
+    background-color: #fc8f02;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+.logo-img-div{
+    width: auto;
+    height: auto;
+    background-color: #fc8f02;
+    display:none;
+    margin-left:10px;
+     vertical-align: middle;
+}
+.logo-img{
+    width: 30px;
+    height: 30px;
+    background-color: #fc8f02;
+    display:inline-block;
+    margin-left: 0px;
+    border-radius: 50%;
+}
+.arama-div{
+    width: 100%;
+    height: auto;
+    background-color: #fc8f02;
+    display:inline-block;
+     vertical-align: middle;
+     z-index:-1;
+     text-align: center;
+     margin-top:5px;
+}
+.arama{
+    width: 90%;
+    height: 30px;
+    border-radius:10px;
+    border:3px solid white;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: bold;
+}
+.arama:focus{
+    width: 400px;
+    height: 30px;
+    border-radius:10px;
+    border:3px solid white;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: bold;
+}
+.arama-buton{
+     width: auto;
+    height: auto;
+    display:inline-block;
+     margin-left:-50px;
+     margin-top: -6px;
+}
+.button{
+     width: 50px;
+    height: 39px;
+     vertical-align: middle;
+     border-radius: 10px;
+     background-color: #27a11c;
+     border: none;
+     color: white;
+     text-align: center;
+     transition: 0.3s;
+    font-weight: bold;
+}
+.button:hover{
+     width: 50px;
+    height: 40;
+     vertical-align: middle;
+     border-radius: 10px;
+     background-color: #15ff00;
+     border: none;
+     color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.liste{
+    width: 100%;
+    height: auto;
+    background-color: #fc8f02;
+    display:block;
+     margin-bottom:10px;
+     text-align: center;
+     padding-bottom: 3px;
+     margin-top:10px;
+     margin-bottom:10px;
+}
+.list-ul{
+    width: auto;
+    height: auto;
+     list-style-type: none;
+    background-color: #fc8f02;
+    display:block;
+     margin-bottom:10px;
+}
+.list-ul li{
+    width: auto;
+    height: auto;
+     list-style-type: none;
+    background-color: #F5F595;
+    display:inline-block;
+}
+.list-ul li a{
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none; 
+}
+.giris{
+    color:green;
+    transition: 0.3s;
+    background-color: white;
+    padding: 8px;
+}
+.giris:hover{
+    color:red;
+    background-color: white;
+     padding: 8px;
+}
+.sepet{
+    color:green;
+    transition: 0.3s;
+     background-color: white;
+     padding: 8px;
+}
+.sepet:hover{
+    color:red;
+     background-color: white;
+     padding: 8px;
+}
+
+
+    .sepet-urun-con{
+        width: 300px;
+        background-color: #fc8f02;
+        position:absolute;
+        margin-left:70px;
+        z-index:1;
+        margin-top: 12px;
+        padding: 0px;
+        display:none;
+    }
+    
+.asdf:hover .sepet-urun-con{
+         width: 300px;
+        background-color: #fc8f02;
+        position:absolute;
+        margin-left:-175;
+        z-index:1;
+        margin-top: 12px;
+        padding: 0px;
+        display:block;
+}
+    .sepet-urun-con ul{
+        width: auto;
+        background-color: #fc8f02;
+        list-style-type:none;
+        padding: 0px;
+        margin:0px auto;
+
+    }
+    .sepet-urun-con ul li{
+        width: auto;
+        background-color: #fc8f02;
+        list-style-type:none;
+        display: block;
+        padding: 0px;
+        margin:0px auto;
+        cursor:pointer;
+        vertical-align: top;
+    }
+    .sepet-urun-img{
+        width: auto;
+        display:inline-block;
+    }
+    .sepet-urun-img img{
+        width: 150px;
+        height: 150px;
+    }
+    .sepet-urun-isim{
+        width: auto;
+        display:inline-block;
+        vertical-align: top;
+    }
+    .sepet-urun-isim p {
+        font-size: 10px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:rgb(36, 36, 36);
+        margin-top: 15px;
+    }
+.acilir-pencere-giris{
+    width: auto;
+    height: auto;
+    position:absolute;
+    display:none;
+    margin-top:9px;
+}
+.giris-a-div:hover .acilir-pencere-giris{
+    width: auto;
+    position:absolute;
+    display:block;
+    margin-right:0px;
+    margin-top:9px;
+    z-index:2;
+}
+.acilir-pencere-giris li{
+    width: auto;
+    height: auto;
+    display:block;
+    text-align:center;
+    padding: 5px;
+    background-color: #fc8f02;
+    color: white;
+    font-weight: bold;
+    transition:0.3;
+}
+.acilir-pencere-giris li a{
+    display:block;
+    color: white;
+}
+.acilir-pencere-giris li:hover{
+    width: auto;
+    height: auto;
+    display:block;
+    text-align:center;
+    padding: 5px;
+    background-color: #fcba65;
+    color: white;
+    font-weight: bold;
+}
+.giris-buton{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    font-weight: bold;
+    color:white;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.header-bottom{
+    width: 100%;
+    height: auto;
+    background-color: rgb(10, 0, 54);
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+.header-container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(10, 0, 54);
+    margin: 0px;
+    padding: 0px;
+}
+.header-container li{
+    display: inline-block;
+    height: auto;
+    width:auto;
+    color: white;
+    margin-left: 3px;
+    color: white;
+    cursor: pointer;
+    margin-top: 0px;
+}
+.header-container li a{
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 13px;
+    padding: 3px;
+    display: inline-block;
+    color: white;
+}
+.header-container li a:hover{
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 13px;
+    padding: 3px;
+    display: inline-block;
+    color: white;
+    background-color: rgb(47, 0, 255);
+}
+.tum-urun{
+    padding: 3px;
+    margin: 0px;
+    background-color: rgb(10, 0, 54);
+}
+.tum-urun:hover{
+    padding: 3px;
+    margin: 0px;
+    background-color: rgb(47, 0, 255);
+}
+
+.tum-urunler{
+    display: none;
+    transition: 0.3s;
+}
+.tum-urun:hover .tum-urunler{
+    display: block;
+    position :absolute;
+    background-color: rgb(10, 0, 54) ;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 3px;
+    margin-left: -10px;
+    
+    z-index:2;
+}
+.tum-urunler ul{
+    display: block;
+    background-color: rgb(10, 0, 54) ;
+    padding: 0px;
+    margin: 0px;
+}
+.tum-urunler ul li{
+    display: block;
+    background-color: rgb(10, 0, 54) ;
+    padding: 0px;
+    margin: 0px;
+}
+.tum-urunler ul li:hover{
+    display: block;
+    background-color: rgb(47, 0, 255) ;
+    padding: 0px;
+    margin: 0px;
+}
+.tum-urunler ul li a{
+    width: 100px;
+    padding: 10px;
+}
+.tum-urunler ul li a:hover{
+  
+    padding: 10px;
+}
+.tum-urunler ul li i{
+    margin-right:5px;
+}
+}
